@@ -44,7 +44,7 @@ deleteHeader_RC = type=http-request,pattern=^https?:\/\/api\.revenuecat\.com\/.+
 
 deleteHeader_Firebase = type=http-request,pattern=^https?:\/\/firebaseremoteconfig\.googleapis\.com\/.+,script-path=https://raw.githubusercontent.com/bytevn/lockfefefe/refs/heads/main/locketfilterai/deleteHeader_Firebase.js?v=20261108_47,timeout=60
 
-revenuecat = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/bytevn/lockfefefe/refs/heads/main/locketfilterai/evenuecat.js?v=20261108_47,requires-body=true,max-size=-1,timeout=60
+revenuecat = type=http-response,pattern=^https?:\/\/api\.revenuecat\.com\/.+\/(receipts|subscribers),script-path=https://raw.githubusercontent.com/bytevn/lockfefefe/refs/heads/main/locketfilterai/revenuecat.js?v=20261108_47,requires-body=true,max-size=-1,timeout=60
 
 locket_rc = type=http-response,pattern=^https?:\/\/firebaseremoteconfig\.googleapis\.com\/.+,script-path=https://raw.githubusercontent.com/bytevn/lockfefefe/refs/heads/main/locketfilterai/locketfix.js?v=20261108_47,requires-body=true,max-size=-1,timeout=60
 
